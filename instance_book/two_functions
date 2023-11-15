@@ -1,0 +1,17 @@
+//这串代码是为了展示如何在main函数中调用其他函数。
+#include <stdio.h>
+void butler(void);
+
+int main(void)
+{
+	printf("I will show the two functions,do you believe?\n");
+	butler();
+	printf("I am the first function.\n");
+
+	return 0;
+ }
+
+void butler(void)
+{
+	printf("I am the second function.\n");
+}
