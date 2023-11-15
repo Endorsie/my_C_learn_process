@@ -1,0 +1,13 @@
+//一串简单描述厘米与分米换算关系的代码
+#include<stdio.h>
+
+int main(void)
+{
+	int cm,dm;
+	    dm = 1;
+		cm = 10;
+		
+		printf("There are % d cm in % d dm.\n", cm, dm);
+		printf("Totally %d cm !",10*dm);
+	return 0;
+}
