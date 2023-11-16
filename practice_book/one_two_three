@@ -1,5 +1,5 @@
 //这是第二章"C语言概述"的最后一个作业2.8。
-//这串代码的功能是从一数到五。
+//这串代码的功能是从一数到三。
 #include <stdio.h>
 void one_three(void);
 void two(void);
