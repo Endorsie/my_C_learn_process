@@ -1,0 +1,29 @@
+//课后作业2.4 如何自定义函数
+#include <stdio.h>
+void jolly(void);           //函数声明     
+void deny(void);
+void wan(void);
+
+void jolly(void)            //定义函数
+{
+	printf("It is my first self-defined function.\n");
+}
+
+void deny(void)
+{
+	printf("It is my second self-defined function.\n");
+}
+
+int main(void)
+{
+	jolly();
+	deny();
+	wan();
+
+	return 0;
+}
+
+void wan(void)
+{
+	printf("It is a function named by my first name.");
+}
