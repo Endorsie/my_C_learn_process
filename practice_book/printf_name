@@ -1,0 +1,13 @@
+//课后作业2.1 调用不同次数的printf（）函数来打印自己的名字。
+
+#include <stdio.h>
+
+int main(void)
+{
+	printf("Wan Endorsie\n");
+	printf("Wan\nEndorsie\n");
+	printf("Wan ");
+	printf("Endorsie");
+
+ return 0;
+}
