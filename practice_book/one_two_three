@@ -1,5 +1,5 @@
 //这是第二章"C语言概述"的最后一个作业2.8。
-//这串代码的功能是从一数到三。
+//这串代码的功能是从一数到五。
 #include <stdio.h>
 void one_three(void);
 void two(void);
@@ -10,11 +10,12 @@ int main(void)
                 one_three();
                 printf("two\n");
                 two();
-                printf("done!\n");
+                printf("done!");
 
         return 0;
 }
 
+//下面定义函数one_three()和two()
 void one_three(void)
 {
                 printf("one\n");
